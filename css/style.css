@@ -1,0 +1,141 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+
+/* table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 5px;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap');
+
+@font-face{
+    src: url("../media/fonts/New Beach.otf");
+    font-family: newbeach;
+}
+
+
+h1{
+    font-family: newbeach, system-ui;
+    background-color: blue;
+    width: 70%;
+    height: 100px;
+    /* padding: top right bottom left */
+    padding: 50px 50px 0px 50px;
+
+     /* border: 5px solid red;  */
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+
+     /* margin-top: 100px;
+    margin-bottom: 100px; */
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+
+/* Add some style for the class named "me", including adding a solid border around it, and adding padding */
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 5px;
+    /* make the width 50% of the page */
+    width: 50%;
+}
+
+.text1.you {
+    font-family: 'Rubik Maps', sans-serif;
+    font-size: 24px;
+    color: #FF00FF;
+    background-color: #FFFF00;
+    padding: 10px;
+    border: 2px dashed #0000FF;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    /* Add a box shadow */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* Add a rotation animation */
+    animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+} */
+    
+/* p{
+    background-color: blue;
+}*/
+em{
+    background-color: beige;
+    /* padding-top: 10px; */
+} 
+
+/* a{ 
+    display: block; 
+    background-color: red;
+    width: 500px;
+} */
+
+img{
+    width: 100px;
+}
+
+.text1{
+    background-color: yellow;
+    border-style: dashed;
+}
+
+.group1{
+    background-color: lightblue;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.group2{
+    background-color: yellow;
+}
