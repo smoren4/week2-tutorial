@@ -1,7 +1,7 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
-} */
+}
 
 
 
@@ -138,4 +138,9 @@ img{
 
 .group2{
     background-color: yellow;
+}
+
+/* shift the list over to the left by 200px */
+ul{
+    margin-left: 200px;
 }
